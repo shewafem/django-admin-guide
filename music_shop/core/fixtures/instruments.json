@@ -1,0 +1,57 @@
+[
+    {
+        "model": "core.instrument",
+        "pk": 1,
+        "fields": {
+            "name": "Электрогитара SCHECTER",
+            "category": 1,
+            "price": "25000.00",
+            "description": "Серия гитар SGR by Schecter сочетает в себе самый популярный стиль корпуса по чрезвычайно доступной цене.",
+            "is_available": 1
+        }
+    },
+    {
+        "model": "core.instrument",
+        "pk": 2,
+        "fields": {
+            "name": "Скрипка",
+            "category": 1,
+            "price": "15000.00",
+            "description": "Классическая скрипка",
+            "is_available": 1
+        }
+    },
+    {
+        "model": "core.instrument",
+        "pk": 3,
+        "fields": {
+            "name": "Барабаны",
+            "category": 2,
+            "price": "25000.00",
+            "description": "Набор барабанов",
+            "is_available": 1
+        }
+    },
+    {
+        "model": "core.instrument",
+        "pk": 4,
+        "fields": {
+            "name": "Тамбурин",
+            "category": 2,
+            "price": "5000.00",
+            "description": "Ручной тамбурин",
+            "is_available": 1
+        }
+    },
+    {
+        "model": "core.instrument",
+        "pk": 5,
+        "fields": {
+            "name": "Бас-гитара",
+            "category": 1,
+            "price": "50000.00",
+            "description": "Электрическая бас-гитара",
+            "is_available": 1
+        }
+    }
+]

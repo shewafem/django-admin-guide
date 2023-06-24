@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+    --primary: #8844f6;
+    --button-bg: var(--primary);
+    --button-hover-bg: rgb(236, 196, 227);
+    --default-button-bg: var(--primary);
+    --default-button-hover-bg: rgb(236, 196, 227);
+    --header-bg: var(--primary);
+}
+
+input[type=submit]:hover {
+    color: black;
+}
+
+* {
+    font-family: 'Montserrat'
+}
+
+#header {
+    background: #8844f6;
+}
+
+#branding h1 a:link, #branding h1 a:visited {
+    color: white;
+    font-weight: 500;
+}
+
+.module caption {
+    background-color: #8844f6;
+}
+
+input, textarea {
+    font-family: inherit;
+}

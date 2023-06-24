@@ -1,0 +1,18 @@
+{% comment %}{% extends 'main/layout.html' %}{% endcomment %}
+{% comment %}{% load i18n %}{% endcomment %}
+{% load static %}
+{% block main %}
+<main class="page">
+    <div class="page__container _container">
+        <section class="page__welcome welcome">
+            <div class="welcome__info">
+                <h1 class="welcome__heading">Магазин музыкальных инструментов!😊</h1>
+                <p class="welcome__text">Все ваши любимые музыкальные инструменты!</p>
+            </div>
+            {% comment %}<div class="welcome__button button"><a href="{% url 'events' %}" class="welcome__link">{% trans 'Купить билеты!' %}</a></div>
+            <img class="welcome__image" src="{% static 'img/star.png' %}" alt="exciting-star">{% endcomment %}
+        </section>
+        {% comment %} there will be some code in the future... {% endcomment %}
+    </div>
+</main>
+{% endblock %}

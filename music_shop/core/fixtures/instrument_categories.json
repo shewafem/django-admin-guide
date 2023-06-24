@@ -1,0 +1,16 @@
+[
+    {
+        "model": "core.instrumentcategory",
+        "pk": 1,
+        "fields": {
+            "name": "Струнные"
+        }
+    },
+    {
+        "model": "core.instrumentcategory",
+        "pk": 2,
+        "fields": {
+            "name": "Ударные"
+        }
+    }
+]
